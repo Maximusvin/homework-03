@@ -1,13 +1,17 @@
-a,
-a:visited {
-  text-decoration: none;
+html {
+  box-sizing: border-box;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a,
+a:visited,
 a:hover {
   text-decoration: none;
-}
-ul li {
-  list-style: none;
-  padding: 0;
 }
 
 p {
@@ -43,7 +47,9 @@ body {
 }
 
 .menu-list {
-  padding-left: 163px;
+  margin: 0;
+  padding: 0 0 0 163px;
+  list-style: none;
 }
 
 .menu-item {
