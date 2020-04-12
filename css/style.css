@@ -48,8 +48,9 @@ body {
 
 .menu-list {
   margin: 0;
-  padding: 0 0 0 163px;
+  padding: 0;
   list-style: none;
+  text-align: center;
 }
 
 .menu-item {
@@ -84,8 +85,23 @@ body {
   padding-bottom: 70px;
 }
 
+.article {
+  width: 420px;
+  margin-bottom: 129px;
+  display: inline-block;
+}
+
+.article:nth-of-type(odd) {
+  margin-right: 55px;
+}
+
+.article:nth-last-of-type(-n + 2) {
+  margin-bottom: 50px;
+}
+
 .art-img {
   margin-bottom: 20px;
+  display: block;
 }
 
 .subtitle {
@@ -99,23 +115,6 @@ body {
 .title {
   font-size: 30px;
   margin-bottom: 35px;
-}
-
-.description {
-  width: 420px;
-}
-
-.article {
-  margin-bottom: 129px;
-  display: inline-block;
-}
-
-.article:nth-of-type(2n) {
-  padding-left: 56px;
-}
-
-.article:nth-last-of-type(-n + 2) {
-  margin-bottom: 50px;
 }
 
 .btn {
